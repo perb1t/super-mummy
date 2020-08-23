@@ -1,0 +1,33 @@
+ext {
+    rxjavaVersion = '2.2.3'
+    rxandroidVersion = '2.1.1'
+    rxActivityResultVersion = '0.5.0-2.x'
+    daggerVersion = '2.24'
+    retrofitVersion = '2.6.1'
+
+    butterknifeVersion = '9.0.0'
+    barlibraryVersion = '2.2.9'
+    rxpermissionsVersion = '0.10.2'
+}
+
+ext {
+
+    rxjava = "io.reactivex.rxjava2:rxjava:${rxjavaVersion}"
+    rxandroid = "io.reactivex.rxjava2:rxandroid:${rxandroidVersion}"
+    rxActivityResult = "com.github.VictorAlbertos:RxActivityResult:${rxActivityResultVersion}"
+
+    dagger = "com.google.dagger:dagger:${daggerVersion}"
+    daggerCompiler = "com.google.dagger:dagger-compiler:${daggerVersion}"
+    daggerAndroidSupport = "com.google.dagger:dagger-android-support:${daggerVersion}"
+    daggerProcessor = "com.google.dagger:dagger-android-processor:${daggerVersion}"
+
+    retrofit = "com.squareup.retrofit2:retrofit:${retrofitVersion}"
+    rxCallAdapter = "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}"
+    moshiConvertAdapter = "com.squareup.retrofit2:converter-moshi:${retrofitVersion}"
+    okhttplogging = "com.squareup.okhttp3:logging-interceptor:3.4.1"
+
+    butterknife = "com.jakewharton:butterknife:${butterknifeVersion}"
+    butterknifeCompiler = "com.jakewharton:butterknife-compiler:${butterknifeVersion}"
+    barlibrary = "com.gyf.barlibrary:barlibrary:${barlibraryVersion}"
+//    rxpermissions = "com.github.tbruyelle:rxpermissions:${rxpermissionsVersion}"
+}
