@@ -7,6 +7,7 @@ package com.jwshi.supermummy.data.model;
  */
 public class Record {
 
+<<<<<<< HEAD
     /* 创建时间 */
     private long createTime;
 
@@ -14,4 +15,6 @@ public class Record {
     private long updateTime;
 
 
+=======
+>>>>>>> 30fdf2eee7084ff8bd97208812f811b5932c7db3
 }
